@@ -1,32 +1,16 @@
 using WebApplication2;
-using WebApplication2.Contracts;
-using WebApplication2.Services;
 
-var builder = WebApplication.CreateBuilder(args);
-
-
-// Add services to the container.
-builder.Services.AddRazorPages();
-builder.Services.AddScoped<ILoggerManager, LoggerManager>();
-
-var app = builder.Build();
-
-
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+public class Program
 {
-    app.UseExceptionHandler("/Error");
+    public static void Main(string[] args)
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
 }
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapControllers();   
-
-app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets();
-
-app.Run();

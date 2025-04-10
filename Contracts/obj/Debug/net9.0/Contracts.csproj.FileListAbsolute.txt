@@ -10,3 +10,6 @@ D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.pdb
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\ref\Contracts.dll
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.csproj.AssemblyReference.cache
+D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\bin\Debug\net9.0\Entities.dll
+D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\bin\Debug\net9.0\Entities.pdb
+D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.csproj.Up2Date

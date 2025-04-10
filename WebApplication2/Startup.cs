@@ -18,7 +18,7 @@ namespace WebApplication2
     {
         public Startup(IConfiguration configuration)
         {
-            LogManager.Setup().LoadConfigurationFromFile("nlog.config");
+            LogManager.Setup().LoadConfigurationFromFile("nlog.config.xml");
             Configuration = configuration;
         }
 
@@ -30,6 +30,7 @@ namespace WebApplication2
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
+            services.ConfigureSqlContext(Configuration);
             services.AddControllers();
             services.AddRazorPages();
         }
