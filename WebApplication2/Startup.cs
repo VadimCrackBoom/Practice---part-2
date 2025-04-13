@@ -1,42 +1,34 @@
-﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
+﻿using CompanyEmployees.Extensions;
+using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using WebApplication2.Extesions;
 using NLog;
-using NLog.Extensions.Logging;
-namespace WebApplication2
+using WebApplication2.Extensions;
+
+namespace CompanyEmployees
 {
     public class Startup
     {
         public Startup(IConfiguration configuration)
         {
-            LogManager.Setup().LoadConfigurationFromFile("nlog.config.xml");
+            LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),
+           "/nlog.config"));
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.ConfigureCors();
             services.ConfigureIISIntegration();
+            services.AddControllers();
             services.ConfigureLoggerService();
             services.ConfigureSqlContext(Configuration);
-            services.AddControllers();
-            services.AddRazorPages();
+            services.ConfigureRepositoryManager();
+            services.AddAutoMapper(typeof(Startup));
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerManager logger)
         {
             if (env.IsDevelopment())
             {
@@ -44,24 +36,20 @@ namespace WebApplication2
             }
             else
             {
-                app.UseExceptionHandler("/Error");
             }
 
+            app.ConfigureExceptionHandler(logger);
+            app.UseHttpsRedirection();
+            app.UseHsts();
             app.UseStaticFiles();
             app.UseCors("CorsPolicy");
             app.UseForwardedHeaders(new ForwardedHeadersOptions
             {
                 ForwardedHeaders = ForwardedHeaders.All
             });
-
             app.UseRouting();
-
             app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 }

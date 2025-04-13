@@ -1,30 +1,36 @@
-﻿using Entities;
-using Contracts;
+﻿using Contracts;
+using Entities;
 
 namespace Repository
 {
     public class RepositoryManager : IRepositoryManager
     {
-        private readonly RepositoryContext _repositoryContext;
-        private readonly ICompanyRepository _companyRepository;
-        private readonly IEmployeeRepository _employeeRepository;
-
-        public RepositoryManager(
-            RepositoryContext repositoryContext,
-            ICompanyRepository companyRepository,
-            IEmployeeRepository employeeRepository)
+        private RepositoryContext _repositoryContext;
+        private ICompanyRepository _companyRepository;
+        private IEmployeeRepository _employeeRepository;
+        public RepositoryManager(RepositoryContext repositoryContext)
         {
             _repositoryContext = repositoryContext;
-            _companyRepository = companyRepository;
-            _employeeRepository = employeeRepository;
+        }
+        public ICompanyRepository Company
+        {
+            get
+            {
+                if (_companyRepository == null)
+                    _companyRepository = new CompanyRepository(_repositoryContext);
+                return _companyRepository;
+            }
+        }
+        public IEmployeeRepository Employee
+        {
+            get
+            {
+                if (_employeeRepository == null)
+                    _employeeRepository = new EmployeeRepository(_repositoryContext);
+                return _employeeRepository;
+            }
         }
 
-        public ICompanyRepository Company => _companyRepository;
-
-        public IEmployeeRepository Employee => _employeeRepository;
-
         public void Save() => _repositoryContext.SaveChanges();
-
-        public Task SaveAsync() => _repositoryContext.SaveChangesAsync();
     }
 }

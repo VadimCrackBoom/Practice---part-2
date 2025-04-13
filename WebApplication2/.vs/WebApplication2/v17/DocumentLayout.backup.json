@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\\u0414\u0410\u041D\u041D\u042B\u0415\\\u041F\u0420\u0410\u041A\u0422\u0418\u041A\u0410 2-\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WebApplication2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F37E76FF-E3B8-4837-876D-4B6EC0468020}|WebApplication2.csproj|d:\\\u0434\u0430\u043D\u043D\u044B\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 2-\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\webapplication2\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F37E76FF-E3B8-4837-876D-4B6EC0468020}|WebApplication2.csproj|solutionrelative:extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F37E76FF-E3B8-4837-876D-4B6EC0468020}|WebApplication2.csproj|d:\\\u0434\u0430\u043D\u043D\u044B\u0435\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 2-\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F37E76FF-E3B8-4837-876D-4B6EC0468020}|WebApplication2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\\u0414\u0410\u041D\u041D\u042B\u0415\\\u041F\u0420\u0410\u041A\u0422\u0418\u041A\u0410 2-\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WebApplication2\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ServiceExtensions.cs",
+              "ToolTip": "D:\\\u0414\u0410\u041D\u041D\u042B\u0415\\\u041F\u0420\u0410\u041A\u0422\u0418\u041A\u0410 2-\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WebApplication2\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T09:25:52.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\\u0414\u0410\u041D\u041D\u042B\u0415\\\u041F\u0420\u0410\u041A\u0422\u0418\u041A\u0410 2-\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\\u0414\u0410\u041D\u041D\u042B\u0415\\\u041F\u0420\u0410\u041A\u0422\u0418\u041A\u0410 2-\u0439 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-13T09:16:26.777Z",
+              "EditorCaption": ""
             }
           ]
         }

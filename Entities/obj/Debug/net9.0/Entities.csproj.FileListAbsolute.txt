@@ -1,6 +1,7 @@
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\bin\Debug\net9.0\Entities.deps.json
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\bin\Debug\net9.0\Entities.dll
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\bin\Debug\net9.0\Entities.pdb
+D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\Entities.csproj.AssemblyReference.cache
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\Entities.AssemblyInfoInputs.cache
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\Entities.AssemblyInfo.cs
@@ -9,4 +10,3 @@ D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\E
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\refint\Entities.dll
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\Entities.pdb
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\ref\Entities.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Entities\obj\Debug\net9.0\Entities.csproj.AssemblyReference.cache

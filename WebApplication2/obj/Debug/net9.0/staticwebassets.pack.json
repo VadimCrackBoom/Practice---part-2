@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\WebApplication2\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\WebApplication2.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebApplication2.876xdbceps.bundle.scp.css"
-    },
-    {
       "Id": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\WebApplication2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

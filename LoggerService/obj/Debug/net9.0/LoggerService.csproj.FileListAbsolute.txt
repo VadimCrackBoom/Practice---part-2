@@ -2,7 +2,9 @@ D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\LoggerService.dll
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\LoggerService.pdb
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Contracts.dll
+D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Entities.dll
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Contracts.pdb
+D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Entities.pdb
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.csproj.AssemblyReference.cache
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\refint\LoggerService.dll
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.pdb
 D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\ref\LoggerService.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Entities.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Entities.pdb
