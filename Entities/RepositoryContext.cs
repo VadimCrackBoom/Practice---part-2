@@ -22,7 +22,7 @@ namespace Entities
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
             modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
 
-            // Дополнительные настройки, которые можно добавить напрямую
+            
             modelBuilder.Entity<Company>()
                 .HasMany(c => c.Employees)
                 .WithOne(e => e.Company)

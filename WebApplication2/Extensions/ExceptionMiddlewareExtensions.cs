@@ -1,9 +1,9 @@
-﻿using Contracts;
+﻿using System.Net;
+using Contracts;
 using Entities.ErrorModel;
 using Microsoft.AspNetCore.Diagnostics;
-using System.Net;
 
-namespace CompanyEmployees.Extensions
+namespace WebApplication2.Extensions
 {
     public static class ExceptionMiddlewareExtensions
     {
@@ -14,10 +14,10 @@ namespace CompanyEmployees.Extensions
                 appError.Run(async context =>
                 {
                     context.Response.StatusCode =
-                   (int)HttpStatusCode.InternalServerError;
+                        (int)HttpStatusCode.InternalServerError;
                     context.Response.ContentType = "application/json";
                     var contextFeature =
-                    context.Features.Get<IExceptionHandlerFeature>();
+                        context.Features.Get<IExceptionHandlerFeature>();
                     if (contextFeature != null)
                     {
                         logger.LogError($"Something went wrong: {contextFeature.Error} ");
