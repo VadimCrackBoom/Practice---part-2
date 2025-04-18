@@ -1,0 +1,12 @@
+D:\PROJECTS\Entities\bin\Debug\net9.0\Entities.deps.json
+D:\PROJECTS\Entities\bin\Debug\net9.0\Entities.dll
+D:\PROJECTS\Entities\bin\Debug\net9.0\Entities.pdb
+D:\PROJECTS\Entities\obj\Debug\net9.0\Entities.csproj.AssemblyReference.cache
+D:\PROJECTS\Entities\obj\Debug\net9.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\Entities\obj\Debug\net9.0\Entities.AssemblyInfoInputs.cache
+D:\PROJECTS\Entities\obj\Debug\net9.0\Entities.AssemblyInfo.cs
+D:\PROJECTS\Entities\obj\Debug\net9.0\Entities.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Entities\obj\Debug\net9.0\Entities.dll
+D:\PROJECTS\Entities\obj\Debug\net9.0\refint\Entities.dll
+D:\PROJECTS\Entities\obj\Debug\net9.0\Entities.pdb
+D:\PROJECTS\Entities\obj\Debug\net9.0\ref\Entities.dll
