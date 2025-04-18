@@ -1,0 +1,57 @@
+﻿using Contracts;
+using Entities;
+using LoggerService;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.Server.IISIntegration;
+using Microsoft.EntityFrameworkCore;
+using Repository;
+
+namespace CompanyEmployees.Extensions;
+
+public static class ServiceExtensions
+{
+    public static void AddServices(this IServiceCollection services)
+    {
+        services.AddCors(options =>
+        {
+            options.AddPolicy("CorsPolicy",
+                builder => builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+        });
+        
+    }
+
+    public static void ConfigureIIS(this IServiceCollection services)
+    {
+        services.Configure<IISOptions>(options =>
+        {
+            options.AutomaticAuthentication = false;
+            options.ForwardClientCertificate = true;
+        });
+
+        services.Configure<ForwardedHeadersOptions>(options =>
+        {
+            options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+            
+            options.KnownNetworks.Clear();
+            options.KnownProxies.Clear();
+        });
+    }
+    
+    public static void ConfigureLoggerService(this IServiceCollection services) =>
+        services.AddScoped<ILoggerManager, LoggerManager>();
+    
+    public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration) =>
+        services.AddDbContext<RepositoryContext>(opts =>
+            opts.UseSqlite(configuration.GetConnectionString("sqliteConnection"), b => 
+                b.MigrationsAssembly("CompanyEmployees")));
+
+    public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+        services.AddScoped<IRepositoryManager, RepositoryManager>();
+    
+    public static void ConfigureServices(this IServiceCollection services) =>
+    services.AddAutoMapper(typeof(ServiceExtensions));
+}
