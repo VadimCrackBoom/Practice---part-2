@@ -1,19 +1,21 @@
-﻿using Entities;
+﻿using Contracts;
+using Entities;
 using Entities.Models;
-using Contracts;
 
-namespace Repository
+namespace Repository;
+
+public class EmployeeRepository: RepositoryBase<Employee>, IEmployeeRepository
 {
-    public class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
-    {
-        public EmployeeRepository(RepositoryContext repositoryContext)
-        : base(repositoryContext)
-        {
-        }
+    private IEmployeeRepository _employeeRepositoryImplementation;
 
-        public void AnyMethodFromEmployeeRepository()
-        {
-            throw new NotImplementedException();
-        }
+    public EmployeeRepository(RepositoryContext repositoryContext)
+        : base(repositoryContext)
+    {
+        
+    }
+
+    public void AnyMethodFromEmployeeRepository()
+    {
+        _employeeRepositoryImplementation.AnyMethodFromEmployeeRepository();
     }
 }

@@ -1,24 +1,26 @@
-﻿using Entities;
-using Contracts;
+﻿using Contracts;
+using Entities;
 using Entities.Models;
 
-namespace Repository
+namespace Repository;
+
+public class CompanyRepository: RepositoryBase<Company>, ICompanyRepository
 {
-    public class CompanyRepository : RepositoryBase<Company>, ICompanyRepository
-    {
-        public CompanyRepository(RepositoryContext repositoryContext)
+    private ICompanyRepository _companyRepositoryImplementation;
+
+    public CompanyRepository(RepositoryContext repositoryContext)
         : base(repositoryContext)
-        {
-        }
-
-        public void AnyMethodFromCompanyRepository()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Company> GetAllCompanies(bool trackChanges) =>
-        FindAll(trackChanges)
+    {
+        
+    }
+    
+    public IEnumerable<Company> GetAllCompanies(bool trackChanges) =>
+    FindAll(trackChanges)
         .OrderBy(c => c.Name)
-        .ToList();
+    .ToList();
+
+    public void AnyMethodFromCompanyRepository()
+    {
+        Console.WriteLine("AnyMethodFromCompanyRepository");
     }
 }

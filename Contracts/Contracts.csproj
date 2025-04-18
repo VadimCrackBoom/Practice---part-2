@@ -1,21 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="ILoggerManager.cs~RF9ac8b3d.TMP" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="NLog.Extensions.Logging" Version="5.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Entities\Entities.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Entities\Entities.csproj" />
+    </ItemGroup>
 
 </Project>

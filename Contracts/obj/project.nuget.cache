@@ -1,28 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "1eU/Opdl2UQ=",
+  "dgSpecHash": "erLBYFGjJEw=",
   "success": true,
-  "projectFilePath": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\Contracts\\Contracts.csproj",
+  "projectFilePath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.4\\microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.4\\microsoft.entityframeworkcore.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.4\\microsoft.entityframeworkcore.analyzers.9.0.4.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.4\\microsoft.extensions.caching.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.4\\microsoft.extensions.caching.memory.9.0.4.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.logging\\9.0.4\\microsoft.extensions.logging.9.0.4.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.4\\microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.options\\9.0.4\\microsoft.extensions.options.9.0.4.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.4\\microsoft.extensions.primitives.9.0.4.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\nlog\\5.4.0\\nlog.5.4.0.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\nlog.extensions.logging\\5.4.0\\nlog.extensions.logging.5.4.0.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.202\\microsoft.net.sdk.compilers.toolset.9.0.202.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.3\\microsoft.windowsdesktop.app.ref.9.0.3.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.3\\microsoft.netcore.app.ref.9.0.3.nupkg.sha512",
-    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.3\\microsoft.aspnetcore.app.ref.9.0.3.nupkg.sha512"
+    "C:\\Users\\VadyaPOOL\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.4\\microsoft.extensions.primitives.9.0.4.nupkg.sha512"
   ],
   "logs": []
 }

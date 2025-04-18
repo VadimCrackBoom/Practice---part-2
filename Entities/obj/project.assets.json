@@ -192,19 +192,6 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
-      },
-      "Newtonsoft.Json/13.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
       }
     }
   },
@@ -543,42 +530,11 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Newtonsoft.Json/13.0.3": {
-      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
-      "type": "package",
-      "path": "newtonsoft.json/13.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "README.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/net6.0/Newtonsoft.Json.dll",
-        "lib/net6.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.EntityFrameworkCore >= 9.0.4",
-      "Newtonsoft.Json >= 13.0.3"
+      "Microsoft.EntityFrameworkCore >= 9.0.4"
     ]
   },
   "packageFolders": {
@@ -588,11 +544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\VadyaPOOL\\.nuget\\packages\\",
-      "outputPath": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VS CODE\\VS MAIN\\NuGetPackages"
@@ -607,6 +563,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -634,10 +591,6 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.4, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.3, )"
           }
         },
         "imports": [
@@ -651,30 +604,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.3, 9.0.3]"
-          },
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.202, 9.0.202]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.3, 9.0.3]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.3, 9.0.3]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

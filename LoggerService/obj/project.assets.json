@@ -212,19 +212,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Newtonsoft.Json/13.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "NLog/5.4.0": {
         "type": "package",
         "compile": {
@@ -260,8 +247,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Entities": "1.0.0",
-          "NLog.Extensions.Logging": "5.4.0"
+          "Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Contracts.dll": {}
@@ -274,8 +260,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.4",
-          "Newtonsoft.Json": "13.0.3"
+          "Microsoft.EntityFrameworkCore": "9.0.4"
         },
         "compile": {
           "bin/placeholder/Entities.dll": {}
@@ -652,36 +637,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Newtonsoft.Json/13.0.3": {
-      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
-      "type": "package",
-      "path": "newtonsoft.json/13.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "README.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/net6.0/Newtonsoft.Json.dll",
-        "lib/net6.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
-      ]
-    },
     "NLog/5.4.0": {
       "sha512": "LwMcGSW3soF3/SL68rlJN3Eh3ktrAPycC3zZR/07OYBPraZUu0bygEC7kIN10lUQgMXT4s84Fi1chglGdGrQEg==",
       "type": "package",
@@ -746,7 +701,10 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Contracts >= 1.0.0"
+      "Contracts >= 1.0.0",
+      "Microsoft.Extensions.Logging >= 9.0.4",
+      "NLog >= 5.4.0",
+      "NLog.Extensions.Logging >= 5.4.0"
     ]
   },
   "packageFolders": {
@@ -756,11 +714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\LoggerService\\LoggerService.csproj",
+      "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\LoggerService.csproj",
       "projectName": "LoggerService",
-      "projectPath": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\LoggerService\\LoggerService.csproj",
+      "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\LoggerService.csproj",
       "packagesPath": "C:\\Users\\VadyaPOOL\\.nuget\\packages\\",
-      "outputPath": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\LoggerService\\obj\\",
+      "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VS CODE\\VS MAIN\\NuGetPackages"
@@ -775,14 +733,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\ДАННЫЕ\\ПРАКТИКА 2-й семестр\\Contracts\\Contracts.csproj"
+            "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj"
             }
           }
         }
@@ -802,6 +761,20 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[9.0.4, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[5.4.0, )"
+          },
+          "NLog.Extensions.Logging": {
+            "target": "Package",
+            "version": "[5.4.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -813,30 +786,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.3, 9.0.3]"
-          },
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.202, 9.0.202]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.3, 9.0.3]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.3, 9.0.3]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
