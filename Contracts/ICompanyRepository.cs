@@ -1,7 +1,6 @@
-﻿namespace Contracts
+﻿namespace Contracts;
+
+public interface ICompanyRepository
 {
-    public interface ICompanyRepository
-    {
-        void AnyMethodFromCompanyRepository();
-    }
+    void AnyMethodFromCompanyRepository();
 }

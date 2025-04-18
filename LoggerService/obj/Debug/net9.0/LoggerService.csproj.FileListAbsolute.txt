@@ -1,17 +1,15 @@
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\LoggerService.deps.json
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\LoggerService.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\LoggerService.pdb
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Contracts.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Contracts.pdb
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.csproj.AssemblyReference.cache
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.AssemblyInfoInputs.cache
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.AssemblyInfo.cs
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.csproj.CoreCompileInputs.cache
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerSe.E7AEA5A8.Up2Date
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\refint\LoggerService.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\LoggerService.pdb
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\obj\Debug\net9.0\ref\LoggerService.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Entities.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\LoggerService\bin\Debug\net9.0\Entities.pdb
+D:\PROJECTS\LoggerService\bin\Debug\net9.0\LoggerService.deps.json
+D:\PROJECTS\LoggerService\bin\Debug\net9.0\LoggerService.dll
+D:\PROJECTS\LoggerService\bin\Debug\net9.0\LoggerService.pdb
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\LoggerService.AssemblyInfoInputs.cache
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\LoggerService.AssemblyInfo.cs
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\LoggerService.csproj.CoreCompileInputs.cache
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\LoggerService.dll
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\refint\LoggerService.dll
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\LoggerService.pdb
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\ref\LoggerService.dll
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\LoggerService.csproj.AssemblyReference.cache
+D:\PROJECTS\LoggerService\bin\Debug\net9.0\Contracts.dll
+D:\PROJECTS\LoggerService\bin\Debug\net9.0\Contracts.pdb
+D:\PROJECTS\LoggerService\obj\Debug\net9.0\LoggerSe.E7AEA5A8.Up2Date
