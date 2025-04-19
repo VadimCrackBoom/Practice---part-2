@@ -4,5 +4,5 @@ public interface IRepositoryManager
 {
     ICompanyRepository Company { get; }
     IEmployeeRepository Employees { get; }
-    void Save();
+    Task SaveAsync();
 }
