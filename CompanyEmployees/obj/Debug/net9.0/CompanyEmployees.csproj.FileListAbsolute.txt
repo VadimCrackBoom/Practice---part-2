@@ -632,3 +632,6 @@ C:\Users\VadyaPOOL\Desktop\Practice---part-2\CompanyEmployees\obj\Debug\net9.0\r
 C:\Users\VadyaPOOL\Desktop\Practice---part-2\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.pdb
 C:\Users\VadyaPOOL\Desktop\Practice---part-2\CompanyEmployees\obj\Debug\net9.0\CompanyEmployees.genruntimeconfig.cache
 C:\Users\VadyaPOOL\Desktop\Practice---part-2\CompanyEmployees\obj\Debug\net9.0\ref\CompanyEmployees.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\CompanyEmployees\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\CompanyEmployees\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\CompanyEmployees\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
