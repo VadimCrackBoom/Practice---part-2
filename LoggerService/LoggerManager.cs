@@ -1,20 +1,39 @@
-﻿using Microsoft.Extensions.Logging;
-using WebApplication2.Contracts;
+﻿using Contracts;
+using NLog;
 
-namespace WebApplication2.Services
+namespace LoggerService;
+
+public class LoggerManager : ILoggerManager
 {
-    public class LoggerManager : ILoggerManager
+    private static ILogger logger = LogManager.GetCurrentClassLogger();
+
+    public LoggerManager()
     {
-        private readonly ILogger<LoggerManager> _logger;
-
-        public LoggerManager(ILogger<LoggerManager> logger)
-        {
-            _logger = logger;
-        }
-
-        public void LogInfo(string message) => _logger.LogInformation(message);
-        public void LogWarn(string message) => _logger.LogWarning(message);
-        public void LogDebug(string message) => _logger.LogDebug(message);
-        public void LogError(string message) => _logger.LogError(message);
     }
+
+    public void LogDebug(string message)
+    {
+        logger.Debug(message);
+    }
+
+    public void LogError(string message)
+    {
+        logger.Error(message);
+    }
+
+    public void LogError(Exception ex, string message = null)
+    {
+       logger.Error(ex, message);
+    }
+
+    public void LogInfo(string message)
+    {
+        logger.Info(message);
+    }
+
+    public void LogWarn(string message)
+    {
+        logger.Warn(message);
+    }
+    
 }
