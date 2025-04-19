@@ -562,11 +562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj",
       "projectName": "Contracts",
-      "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj",
+      "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj",
       "packagesPath": "C:\\Users\\VadyaPOOL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\obj\\",
+      "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VS CODE\\VS MAIN\\NuGetPackages"
@@ -588,8 +588,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj"
+            "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj"
             }
           }
         }

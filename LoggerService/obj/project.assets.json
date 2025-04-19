@@ -714,11 +714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\LoggerService.csproj",
+      "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\LoggerService\\LoggerService.csproj",
       "projectName": "LoggerService",
-      "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\LoggerService.csproj",
+      "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\LoggerService\\LoggerService.csproj",
       "packagesPath": "C:\\Users\\VadyaPOOL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\obj\\",
+      "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\LoggerService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VS CODE\\VS MAIN\\NuGetPackages"
@@ -740,8 +740,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj"
+            "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj"
             }
           }
         }

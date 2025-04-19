@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\LoggerService.csproj": {}
+    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\LoggerService\\LoggerService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\VadyaPOOL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS CODE\\VS MAIN\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj"
+              "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj": {
+    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\VadyaPOOL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS CODE\\VS MAIN\\NuGetPackages"
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\LoggerService.csproj": {
+    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\LoggerService.csproj",
+        "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\LoggerService\\LoggerService.csproj",
         "packagesPath": "C:\\Users\\VadyaPOOL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\LoggerService\\obj\\",
+        "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS CODE\\VS MAIN\\NuGetPackages"
@@ -175,8 +175,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Contracts\\Contracts.csproj"
+              "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Contracts\\Contracts.csproj"
               }
             }
           }

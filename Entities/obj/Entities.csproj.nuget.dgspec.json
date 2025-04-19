@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj": {}
+    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj": {
+    "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\VadyaPOOL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2-Lab-2\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\VadyaPOOL\\Desktop\\Practice---part-2\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS CODE\\VS MAIN\\NuGetPackages"
