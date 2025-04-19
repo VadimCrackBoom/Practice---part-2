@@ -1,12 +1,11 @@
 ﻿using Entities.Models;
 
-namespace Contracts
-{
-    public interface ICompanyRepository
-    {
-        void AnyMethodFromCompanyRepository();
+namespace Contracts;
 
-        IEnumerable<Company> GetAllCompanies(bool trackChanges);
-        Company GetCompany(Guid companyId, bool trackChanges);
-    }
+public interface ICompanyRepository
+{
+    void AnyMethodFromCompanyRepository();
+    
+    IEnumerable<Company> GetAllCompanies(bool trackChanges);
+    Company GetCompany(Guid companyId, bool trackChanges);
 }

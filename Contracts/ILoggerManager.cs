@@ -6,5 +6,6 @@
         void LogWarn(string message);
         void LogDebug(string message);
         void LogError(string message);
+        void LogError(Exception ex, string message = null);
     }
 }

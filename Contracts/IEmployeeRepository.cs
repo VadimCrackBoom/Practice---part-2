@@ -1,13 +1,10 @@
 ﻿using Entities.Models;
 
-namespace Contracts
+namespace Contracts;
+
+public interface IEmployeeRepository
 {
-    public interface IEmployeeRepository
-    {
-        void AnyMethodFromEmployeeRepository();
-
-        IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges);
-
-        Employee GetEmployee(Guid companyId, Guid id, bool trackChanges);
-    }
+    void AnyMethodFromEmployeeRepository();
+    IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges);
+    Employee GetEmployee(Guid companyId, Guid id, bool trackChanges);
 }
