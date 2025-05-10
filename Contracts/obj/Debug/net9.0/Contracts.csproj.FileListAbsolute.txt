@@ -1,12 +1,42 @@
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\bin\Debug\net9.0\Contracts.deps.json
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\bin\Debug\net9.0\Contracts.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\bin\Debug\net9.0\Contracts.pdb
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.AssemblyInfoInputs.cache
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.AssemblyInfo.cs
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.csproj.CoreCompileInputs.cache
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\refint\Contracts.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.pdb
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\ref\Contracts.dll
-D:\ДАННЫЕ\ПРАКТИКА 2-й семестр\Contracts\obj\Debug\net9.0\Contracts.csproj.AssemblyReference.cache
+D:\PROJECTS\Contracts\bin\Debug\net9.0\Contracts.deps.json
+D:\PROJECTS\Contracts\bin\Debug\net9.0\Contracts.dll
+D:\PROJECTS\Contracts\bin\Debug\net9.0\Contracts.pdb
+D:\PROJECTS\Contracts\obj\Debug\net9.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\Contracts\obj\Debug\net9.0\Contracts.AssemblyInfoInputs.cache
+D:\PROJECTS\Contracts\obj\Debug\net9.0\Contracts.AssemblyInfo.cs
+D:\PROJECTS\Contracts\obj\Debug\net9.0\Contracts.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Contracts\obj\Debug\net9.0\Contracts.dll
+D:\PROJECTS\Contracts\obj\Debug\net9.0\refint\Contracts.dll
+D:\PROJECTS\Contracts\obj\Debug\net9.0\Contracts.pdb
+D:\PROJECTS\Contracts\obj\Debug\net9.0\ref\Contracts.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\bin\Debug\net9.0\Contracts.deps.json
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\bin\Debug\net9.0\Contracts.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\bin\Debug\net9.0\Contracts.pdb
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\bin\Debug\net9.0\Entities.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\bin\Debug\net9.0\Entities.pdb
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\Contracts.csproj.AssemblyReference.cache
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\Contracts.AssemblyInfo.cs
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\Contracts.csproj.Up2Date
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\Contracts.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\refint\Contracts.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\Contracts.pdb
+C:\Users\VadyaPOOL\Desktop\Practice---part-2-Lab-2\Contracts\obj\Debug\net9.0\ref\Contracts.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\bin\Debug\net9.0\Contracts.deps.json
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\bin\Debug\net9.0\Contracts.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\bin\Debug\net9.0\Contracts.pdb
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\bin\Debug\net9.0\Entities.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\bin\Debug\net9.0\Entities.pdb
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.csproj.AssemblyReference.cache
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.AssemblyInfo.cs
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.sourcelink.json
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.csproj.Up2Date
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\refint\Contracts.dll
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\Contracts.pdb
+C:\Users\VadyaPOOL\Desktop\Practice---part-2\Contracts\obj\Debug\net9.0\ref\Contracts.dll
